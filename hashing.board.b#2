@@ -2801,6 +2801,7 @@ Source: http://www.cypressindustries.com/pdf/32005-301.pdf</description>
 </packages>
 </library>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <library name="casey's_custom_stuff">
 <packages>
 <package name="BFL-BGA-VIA-PATTERN">
@@ -3048,6 +3049,8 @@ Source: http://www.cypressindustries.com/pdf/32005-301.pdf</description>
 </package>
 </packages>
 </library>
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 =======
 >>>>>>> parent of 5d6930f... new custom bga pkg layout
 </libraries>
@@ -3422,6 +3425,7 @@ design rules under a new name.</description>
 <element name="C301" library="rcl" package="C0805K" value="" x="83.5" y="71.2"/>
 <element name="C501" library="rcl" package="C0805K" value="" x="79.1" y="71.3" rot="R180"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <element name="CA1" library="casey's_custom_stuff" package="BFL-BGA-VIA-PATTERN" value="BFL-BGA-144-SPC" x="25" y="25" rot="MR180"/>
 <element name="CA2" library="casey's_custom_stuff" package="BFL-BGA-VIA-PATTERN" value="BFL-BGA-144-SPC" x="44.8" y="16.7" rot="MR0"/>
 <element name="CA3" library="casey's_custom_stuff" package="BFL-BGA-VIA-PATTERN" value="BFL-BGA-144-SPC" x="-40.6" y="-90.8"/>
@@ -3430,6 +3434,8 @@ design rules under a new name.</description>
 <element name="CA6" library="casey's_custom_stuff" package="BFL-BGA-VIA-PATTERN" value="BFL-BGA-144-SPC" x="-77.2" y="-90.8"/>
 <element name="CA7" library="casey's_custom_stuff" package="BFL-BGA-VIA-PATTERN" value="BFL-BGA-144-SPC" x="-89.4" y="-90.8"/>
 <element name="CA8" library="casey's_custom_stuff" package="BFL-BGA-VIA-PATTERN" value="BFL-BGA-144-SPC" x="-101.6" y="-90.8"/>
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 =======
 >>>>>>> parent of 5d6930f... new custom bga pkg layout
 </elements>
@@ -4971,6 +4977,7 @@ design rules under a new name.</description>
 <wire x1="4.525" y1="-23.8" x2="6.275" y2="-26.9" width="0" layer="19" extent="1-1"/>
 <wire x1="4.525" y1="-20.7" x2="4.525" y2="-23.8" width="0" layer="19" extent="1-1"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <wire x1="41.22" y1="20.31" x2="0.725" y2="-70.3" width="0" layer="19" extent="1-1"/>
 <wire x1="41.2" y1="19.9" x2="41.22" y2="20.31" width="0" layer="19" extent="1-1"/>
 <wire x1="41.2" y1="18.3" x2="41.2" y2="19.9" width="0" layer="19" extent="1-1"/>
@@ -5349,6 +5356,8 @@ design rules under a new name.</description>
 <wire x1="-99.62" y1="-87.19" x2="-99.6" y2="-87.6" width="0" layer="19" extent="1-1"/>
 <wire x1="-98.02" y1="-87.19" x2="-99.62" y2="-87.19" width="0" layer="19" extent="1-1"/>
 <wire x1="-98" y1="-87.6" x2="-98.02" y2="-87.19" width="0" layer="19" extent="1-1"/>
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 =======
 >>>>>>> parent of 5d6930f... new custom bga pkg layout
 </signal>
@@ -6791,6 +6800,7 @@ design rules under a new name.</description>
 <via x="24.6" y="44.2" extent="1-16" drill="0.26" diameter="0.5"/>
 <via x="24.6" y="43.2" extent="1-16" drill="0.26" diameter="0.5"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <contactref element="CA4" pad="P$1"/>
 <contactref element="CA4" pad="P$48"/>
 <contactref element="CA4" pad="P$51"/>
@@ -7259,6 +7269,8 @@ design rules under a new name.</description>
 <wire x1="26.2" y1="27.4" x2="26.2" y2="27.8" width="0" layer="19" extent="1-1"/>
 <wire x1="26.2" y1="27" x2="26.2" y2="27.4" width="0" layer="19" extent="1-1"/>
 =======
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 <wire x1="28.65" y1="78" x2="38.81" y2="78" width="0" layer="19" extent="1-1"/>
 <wire x1="26.11" y1="78" x2="28.65" y2="78" width="0" layer="19" extent="1-1"/>
 <wire x1="21.03" y1="78" x2="26.11" y2="78" width="0" layer="19" extent="1-1"/>
@@ -7348,6 +7360,7 @@ design rules under a new name.</description>
 <wire x1="27.78" y1="26.19" x2="27.8" y2="26.2" width="0" layer="19" extent="1-16"/>
 <wire x1="27.8" y1="27" x2="27.8" y2="26.2" width="0" layer="19" extent="1-1"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <wire x1="27.8" y1="27.4" x2="27.8" y2="27" width="0" layer="19" extent="1-1"/>
 <wire x1="27.8" y1="27.8" x2="27.8" y2="27.4" width="0" layer="19" extent="1-1"/>
 <wire x1="27.78" y1="28.59" x2="27.8" y2="27.8" width="0" layer="19" extent="1-16"/>
@@ -7403,6 +7416,8 @@ design rules under a new name.</description>
 <wire x1="43" y1="22.2" x2="43" y2="23" width="0" layer="19" extent="1-1"/>
 <wire x1="43" y1="29.4" x2="43" y2="28.6" width="0" layer="19" extent="1-1"/>
 =======
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 <wire x1="27.8" y1="27.8" x2="27.8" y2="27" width="0" layer="19" extent="1-1"/>
 <wire x1="27.8" y1="28.6" x2="27.8" y2="27.8" width="0" layer="19" extent="1-1"/>
 <wire x1="21.4" y1="28.6" x2="23" y2="28.6" width="0" layer="19" extent="1-1"/>
@@ -7603,6 +7618,9 @@ design rules under a new name.</description>
 <wire x1="6.275" y1="-36.2" x2="6.275" y2="-39.3" width="0" layer="19" extent="1-1"/>
 <wire x1="6.275" y1="-23.8" x2="4.525" y2="-26.9" width="0" layer="19" extent="1-1"/>
 <wire x1="6.275" y1="-20.7" x2="6.275" y2="-23.8" width="0" layer="19" extent="1-1"/>
+<<<<<<< HEAD
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
+=======
 >>>>>>> parent of 5d6930f... new custom bga pkg layout
 </signal>
 <signal name="N$14">

@@ -2942,6 +2942,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="1549469" x="114.29" y="-75.25" size="1.778" layer="27" display="off"/>
 </element>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <element name="U5" library="BFL.new" package="BGA-144-0.8MM" value="ASIC-1" x="115" y="25"/>
 <element name="U6" library="BFL.new" package="BGA-144-0.8MM" value="ASIC-1" x="135" y="25"/>
 <element name="U7" library="BFL.new" package="BGA-144-0.8MM" value="ASIC-1" x="135" y="45"/>
@@ -2949,12 +2950,17 @@ design rules under a new name.</description>
 <element name="PS1" library="custom.power" package="YV09T60" value="YV09T60" x="35" y="78" rot="R180"/>
 <element name="PS2" library="custom.power" package="YV09T60" value="YV09T60" x="125" y="78" rot="R180"/>
 =======
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 <element name="U5" library="BFL.new" package="BGA-144-0.8MM" value="ASIC-1" x="115" y="55" locked="yes"/>
 <element name="U6" library="BFL.new" package="BGA-144-0.8MM" value="ASIC-1" x="135" y="55" locked="yes"/>
 <element name="U7" library="BFL.new" package="BGA-144-0.8MM" value="ASIC-1" x="135" y="75" locked="yes"/>
 <element name="U8" library="BFL.new" package="BGA-144-0.8MM" value="ASIC-1" x="115" y="75" locked="yes"/>
 <element name="PS1" library="custom.power" package="YV09T60" value="YV09T60" x="35" y="88" locked="yes" rot="R180"/>
 <element name="PS2" library="custom.power" package="YV09T60" value="YV09T60" x="125" y="12" locked="yes"/>
+<<<<<<< HEAD
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
+=======
 >>>>>>> parent of 5d6930f... new custom bga pkg layout
 <element name="C1" library="rcl" package="C0402" value="" x="23.2" y="51.3"/>
 <element name="C2" library="rcl" package="C0402" value="" x="23.2" y="52.2"/>
@@ -3031,6 +3037,7 @@ design rules under a new name.</description>
 <element name="C80" library="CAPACITORS" package="2917(7343M)" value="" x="100" y="75" rot="R180"/>
 <element name="C10" library="rcl" package="C0603" value="" x="24.3" y="54" rot="R90"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <element name="C104" library="rcl" package="C0402" value="" x="69.8" y="46.9" rot="R90"/>
 <element name="C103" library="rcl" package="C0402" value="" x="70.9" y="46.9" rot="R90"/>
 <element name="C102" library="rcl" package="C0402" value="" x="69.8" y="44.6" rot="R270"/>
@@ -3101,6 +3108,8 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="80" y="94" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="WHAT_VOLTAGE" library="rcl" package="R0402" value="" x="-9.1" y="-95.6"/>
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 =======
 >>>>>>> parent of 5d6930f... new custom bga pkg layout
 </elements>
@@ -3838,6 +3847,7 @@ design rules under a new name.</description>
 <contactref element="C27" pad="2"/>
 <contactref element="C26" pad="2"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <contactref element="C103" pad="2"/>
 <contactref element="C104" pad="2"/>
 <contactref element="C105" pad="2"/>
@@ -4246,6 +4256,8 @@ design rules under a new name.</description>
 <wire x1="111.4" y1="20.6" x2="111.4" y2="21.4" width="0" layer="19" extent="1-1"/>
 <wire x1="49.4" y1="48.6" x2="69.75" y2="49.5" width="0" layer="19" extent="1-1"/>
 =======
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 <wire x1="137.8" y1="78.6" x2="137.8" y2="79.4" width="0" layer="19" extent="1-1"/>
 <wire x1="137.8" y1="77.8" x2="137.8" y2="78.6" width="0" layer="19" extent="1-1"/>
 <wire x1="137.8" y1="77" x2="137.8" y2="77.8" width="0" layer="19" extent="1-1"/>
@@ -4542,6 +4554,9 @@ design rules under a new name.</description>
 <wire x1="13.41" y1="88" x2="18.49" y2="88" width="0" layer="19" extent="1-1"/>
 <wire x1="8.33" y1="88" x2="13.41" y2="88" width="0" layer="19" extent="1-1"/>
 <wire x1="49.4" y1="48.6" x2="72.38" y2="66.0122" width="0" layer="19" extent="1-1"/>
+<<<<<<< HEAD
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
+=======
 >>>>>>> parent of 5d6930f... new custom bga pkg layout
 <wire x1="48.6" y1="48.6" x2="49.4" y2="48.6" width="0" layer="19" extent="1-1"/>
 <wire x1="48.6" y1="49.4" x2="48.6" y2="48.6" width="0" layer="19" extent="1-1"/>
@@ -4902,7 +4917,10 @@ design rules under a new name.</description>
 <wire x1="4.525" y1="-23.8" x2="6.275" y2="-26.9" width="0" layer="19" extent="1-1"/>
 <wire x1="4.525" y1="-20.7" x2="4.525" y2="-23.8" width="0" layer="19" extent="1-1"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 <wire x1="113.57" y1="12" x2="113.8" y2="50.6" width="0" layer="19" extent="1-1"/>
 <wire x1="111.03" y1="12" x2="113.57" y2="12" width="0" layer="19" extent="1-1"/>
 <wire x1="118.65" y1="12" x2="113.57" y2="12" width="0" layer="19" extent="1-1"/>
@@ -4923,6 +4941,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="SPI_CS">
 <contactref element="U9" pad="31"/>
+<<<<<<< HEAD
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
+=======
 >>>>>>> parent of 5d6930f... new custom bga pkg layout
 </signal>
 <signal name="VDD-1VB">
@@ -5346,6 +5367,7 @@ design rules under a new name.</description>
 <contactref element="PS2" pad="P$22"/>
 <contactref element="PS2" pad="P$24"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <wire x1="118.65" y1="78" x2="128.81" y2="78" width="0" layer="19" extent="1-1"/>
 <wire x1="116.11" y1="78" x2="118.65" y2="78" width="0" layer="19" extent="1-1"/>
 <wire x1="111.03" y1="78" x2="116.11" y2="78" width="0" layer="19" extent="1-1"/>
@@ -5570,6 +5592,8 @@ design rules under a new name.</description>
 <wire x1="138.6" y1="22.2" x2="138.6" y2="23" width="0" layer="19" extent="1-1"/>
 <wire x1="138.6" y1="21.4" x2="138.6" y2="20.6" width="0" layer="19" extent="1-1"/>
 =======
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 <wire x1="135.4" y1="78.6" x2="135.4" y2="79.4" width="0" layer="19" extent="1-1"/>
 <wire x1="135.4" y1="77.8" x2="135.4" y2="78.6" width="0" layer="19" extent="1-1"/>
 <wire x1="135.4" y1="77" x2="135.4" y2="77.8" width="0" layer="19" extent="1-1"/>
@@ -5793,6 +5817,9 @@ design rules under a new name.</description>
 <wire x1="149.13" y1="12" x2="144.05" y2="12" width="0" layer="19" extent="1-1"/>
 <wire x1="154.21" y1="12" x2="149.13" y2="12" width="0" layer="19" extent="1-1"/>
 <wire x1="121.19" y1="12" x2="131.35" y2="12" width="0" layer="19" extent="1-1"/>
+<<<<<<< HEAD
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
+=======
 >>>>>>> parent of 5d6930f... new custom bga pkg layout
 </signal>
 <signal name="VIN2">
@@ -5830,6 +5857,7 @@ design rules under a new name.</description>
 <contactref element="U9" pad="79"/>
 <contactref element="U9" pad="59"/>
 <contactref element="U9" pad="60"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <contactref element="C102" pad="1"/>
 <contactref element="C101" pad="1"/>
@@ -5904,6 +5932,8 @@ design rules under a new name.</description>
 <wire x1="70.9" y1="45.25" x2="72.38" y2="45.508" width="0" layer="19" extent="1-1"/>
 <wire x1="69.8" y1="45.25" x2="70.9" y2="45.25" width="0" layer="19" extent="1-1"/>
 =======
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 <wire x1="87.62" y1="72.4892" x2="84.4958" y2="77.62" width="0" layer="19" extent="1-1"/>
 <wire x1="87.62" y1="72.0066" x2="87.62" y2="72.4892" width="0" layer="19" extent="1-1"/>
 <wire x1="87.62" y1="68.5014" x2="87.62" y2="72.0066" width="0" layer="19" extent="1-1"/>
@@ -5911,6 +5941,9 @@ design rules under a new name.</description>
 <wire x1="84.4958" y1="62.38" x2="87.62" y2="67.9934" width="0" layer="19" extent="1-1"/>
 <wire x1="72.38" y1="74.4958" x2="84.4958" y2="77.62" width="0" layer="19" extent="1-1"/>
 <wire x1="72.38" y1="70.508" x2="72.38" y2="74.4958" width="0" layer="19" extent="1-1"/>
+<<<<<<< HEAD
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
+=======
 >>>>>>> parent of 5d6930f... new custom bga pkg layout
 </signal>
 <signal name="VCC+1V8">
@@ -5936,6 +5969,7 @@ design rules under a new name.</description>
 <contactref element="U1" pad="F12"/>
 <contactref element="U3" pad="F12"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <contactref element="U10" pad="33"/>
 <contactref element="R9" pad="2"/>
 <wire x1="130.6" y1="25.4" x2="130.6" y2="45.4" width="0" layer="19" extent="1-1"/>
@@ -5946,10 +5980,15 @@ design rules under a new name.</description>
 <wire x1="49.4" y1="24.6" x2="77.2" y2="13.345" width="0" layer="19" extent="1-16"/>
 <wire x1="49.4" y1="44.6" x2="49.4" y2="24.6" width="0" layer="19" extent="1-1"/>
 =======
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 <wire x1="110.6" y1="75.4" x2="130.6" y2="75.4" width="0" layer="19" extent="1-1"/>
 <wire x1="130.6" y1="55.4" x2="130.6" y2="75.4" width="0" layer="19" extent="1-1"/>
 <wire x1="110.6" y1="55.4" x2="110.6" y2="75.4" width="0" layer="19" extent="1-1"/>
 <wire x1="49.4" y1="44.6" x2="110.6" y2="55.4" width="0" layer="19" extent="1-1"/>
+<<<<<<< HEAD
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
+=======
 >>>>>>> parent of 5d6930f... new custom bga pkg layout
 <wire x1="29.4" y1="44.6" x2="49.4" y2="44.6" width="0" layer="19" extent="1-1"/>
 <wire x1="49.4" y1="24.6" x2="49.4" y2="44.6" width="0" layer="19" extent="1-1"/>
@@ -5965,6 +6004,7 @@ design rules under a new name.</description>
 <contactref element="U1" pad="E12"/>
 <contactref element="U3" pad="E12"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <contactref element="U10" pad="34"/>
 <contactref element="R10" pad="2"/>
 <wire x1="110.6" y1="46.2" x2="130.6" y2="46.2" width="0" layer="19" extent="1-1"/>
@@ -5975,10 +6015,15 @@ design rules under a new name.</description>
 <wire x1="49.4" y1="23.8" x2="77.9" y2="13.345" width="0" layer="19" extent="1-16"/>
 <wire x1="49.4" y1="43.8" x2="49.4" y2="23.8" width="0" layer="19" extent="1-1"/>
 =======
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 <wire x1="110.6" y1="76.2" x2="130.6" y2="76.2" width="0" layer="19" extent="1-1"/>
 <wire x1="130.6" y1="56.2" x2="130.6" y2="76.2" width="0" layer="19" extent="1-1"/>
 <wire x1="110.6" y1="56.2" x2="110.6" y2="76.2" width="0" layer="19" extent="1-1"/>
 <wire x1="49.4" y1="43.8" x2="110.6" y2="56.2" width="0" layer="19" extent="1-1"/>
+<<<<<<< HEAD
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
+=======
 >>>>>>> parent of 5d6930f... new custom bga pkg layout
 <wire x1="29.4" y1="43.8" x2="49.4" y2="43.8" width="0" layer="19" extent="1-1"/>
 <wire x1="49.4" y1="23.8" x2="49.4" y2="43.8" width="0" layer="19" extent="1-1"/>
@@ -5994,6 +6039,7 @@ design rules under a new name.</description>
 <contactref element="U1" pad="C12"/>
 <contactref element="U3" pad="C12"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <contactref element="U10" pad="35"/>
 <contactref element="R11" pad="2"/>
 <wire x1="110.6" y1="47.8" x2="130.6" y2="47.8" width="0" layer="19" extent="1-1"/>
@@ -6004,10 +6050,15 @@ design rules under a new name.</description>
 <wire x1="49.4" y1="22.2" x2="78.6" y2="13.345" width="0" layer="19" extent="1-16"/>
 <wire x1="49.4" y1="42.2" x2="49.4" y2="22.2" width="0" layer="19" extent="1-1"/>
 =======
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 <wire x1="110.6" y1="77.8" x2="130.6" y2="77.8" width="0" layer="19" extent="1-1"/>
 <wire x1="130.6" y1="57.8" x2="130.6" y2="77.8" width="0" layer="19" extent="1-1"/>
 <wire x1="110.6" y1="57.8" x2="110.6" y2="77.8" width="0" layer="19" extent="1-1"/>
 <wire x1="49.4" y1="42.2" x2="110.6" y2="57.8" width="0" layer="19" extent="1-1"/>
+<<<<<<< HEAD
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
+=======
 >>>>>>> parent of 5d6930f... new custom bga pkg layout
 <wire x1="29.4" y1="42.2" x2="49.4" y2="42.2" width="0" layer="19" extent="1-1"/>
 <wire x1="49.4" y1="22.2" x2="49.4" y2="42.2" width="0" layer="19" extent="1-1"/>
@@ -6023,6 +6074,7 @@ design rules under a new name.</description>
 <contactref element="U1" pad="D12"/>
 <contactref element="U3" pad="D12"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <contactref element="U10" pad="36"/>
 <contactref element="R12" pad="2"/>
 <wire x1="110.6" y1="47" x2="130.6" y2="47" width="0" layer="19" extent="1-1"/>
@@ -6033,17 +6085,23 @@ design rules under a new name.</description>
 <wire x1="49.4" y1="23" x2="79.3" y2="13.345" width="0" layer="19" extent="1-16"/>
 <wire x1="49.4" y1="43" x2="49.4" y2="23" width="0" layer="19" extent="1-1"/>
 =======
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 <wire x1="110.6" y1="77" x2="130.6" y2="77" width="0" layer="19" extent="1-1"/>
 <wire x1="130.6" y1="57" x2="130.6" y2="77" width="0" layer="19" extent="1-1"/>
 <wire x1="110.6" y1="57" x2="110.6" y2="77" width="0" layer="19" extent="1-1"/>
 <wire x1="49.4" y1="43" x2="110.6" y2="57" width="0" layer="19" extent="1-1"/>
 <wire x1="49.4" y1="23" x2="49.4" y2="43" width="0" layer="19" extent="1-1"/>
+<<<<<<< HEAD
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
+=======
 >>>>>>> parent of 5d6930f... new custom bga pkg layout
 <wire x1="29.4" y1="43" x2="49.4" y2="43" width="0" layer="19" extent="1-1"/>
 <wire x1="29.4" y1="23" x2="49.4" y2="23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DONE4">
 <contactref element="U5" pad="H12"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <contactref element="U10" pad="51"/>
 <contactref element="R5" pad="2"/>
@@ -6098,6 +6156,29 @@ design rules under a new name.</description>
 <contactref element="R3" pad="2"/>
 <wire x1="72.38" y1="16.4948" x2="49.4" y2="46.2" width="0" layer="19" extent="1-1"/>
 <wire x1="73.345" y1="16.4" x2="72.38" y2="16.4948" width="0" layer="19" extent="1-16"/>
+=======
+</signal>
+<signal name="DONE5">
+<contactref element="U6" pad="H12"/>
+</signal>
+<signal name="DONE7">
+<contactref element="U8" pad="H12"/>
+</signal>
+<signal name="DONE6">
+<contactref element="U7" pad="H12"/>
+</signal>
+<signal name="DONE0">
+<contactref element="U1" pad="H12"/>
+</signal>
+<signal name="DONE1">
+<contactref element="U2" pad="H12"/>
+</signal>
+<signal name="DONE3">
+<contactref element="U4" pad="H12"/>
+</signal>
+<signal name="DONE2">
+<contactref element="U3" pad="H12"/>
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 =======
 </signal>
 <signal name="DONE5">
@@ -6989,6 +7070,7 @@ design rules under a new name.</description>
 <wire x1="13.875" y1="-73.4" x2="10.075" y2="-73.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <signal name="SPI_1_CS_">
 <contactref element="U10" pad="95"/>
 <contactref element="U9" pad="31"/>
@@ -7149,6 +7231,8 @@ design rules under a new name.</description>
 <contactref element="WHAT_VOLTAGE" pad="2"/>
 <wire x1="-8.45" y1="-95.6" x2="83.9878" y2="37.38" width="0" layer="19" extent="1-1"/>
 </signal>
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 =======
 >>>>>>> parent of 5d6930f... new custom bga pkg layout
 </signals>
