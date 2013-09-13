@@ -8000,15 +8000,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-1.8" y1="-2.2" x2="-1.2" y2="-2.2" width="0.127" layer="21"/>
 <text x="-3.7" y="2.7" size="1" layer="25">&gt;NAME</text>
 </package>
-<package name="0306-REV-GEO">
-<smd name="P$1" x="-0.4" y="0" dx="1.75" dy="0.5" layer="1" rot="R90"/>
-<smd name="P$2" x="0.4" y="0" dx="1.75" dy="0.5" layer="1" rot="R90"/>
-<wire x1="0.4" y1="0.8" x2="-0.4" y2="0.8" width="0.1" layer="51"/>
-<wire x1="-0.4" y1="0.8" x2="-0.4" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="-0.4" y1="-0.8" x2="0.4" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="0.4" y1="-0.8" x2="0.4" y2="0.8" width="0.1" layer="51"/>
-<text x="-0.7" y="0.9" size="0.5" layer="25">&gt;NAME</text>
-</package>
 </packages>
 <symbols>
 <symbol name="POLARIZED_CAP">
@@ -8021,16 +8012,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
-<symbol name="NON-POL-CAP">
-<wire x1="0" y1="-2.54" x2="0" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-0.508" width="0.1524" layer="94"/>
-<text x="1.524" y="0.381" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.524" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
-<rectangle x1="-2.032" y1="-2.032" x2="2.032" y2="-1.524" layer="94"/>
-<pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="2917(7343M)" prefix="C" uservalue="yes">
@@ -8039,23 +8020,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </gates>
 <devices>
 <device name="" package="2917(7343M)">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="0306-REVERSE-GEO" prefix="C" uservalue="yes">
-<description>0306 reverse geometry capacitor</description>
-<gates>
-<gate name="G$1" symbol="NON-POL-CAP" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="0306-REV-GEO">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
@@ -8655,12 +8619,12 @@ Source: www.cypressindustries.com</description>
 <part name="FRAME2" library="frames" deviceset="FRAME_B_L" device=""/>
 <part name="FRAME3" library="frames" deviceset="FRAME_B_L" device=""/>
 <part name="FRAME4" library="frames" deviceset="FRAME_B_L" device=""/>
-<part name="C1" library="CAPACITORS" deviceset="0306-REVERSE-GEO" device=""/>
-<part name="C2" library="CAPACITORS" deviceset="0306-REVERSE-GEO" device=""/>
-<part name="C3" library="CAPACITORS" deviceset="0306-REVERSE-GEO" device=""/>
-<part name="C4" library="CAPACITORS" deviceset="0306-REVERSE-GEO" device=""/>
-<part name="C5" library="CAPACITORS" deviceset="0306-REVERSE-GEO" device=""/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0402"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0402"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0402"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0402"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0603"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0603"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0402"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0402"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0402"/>

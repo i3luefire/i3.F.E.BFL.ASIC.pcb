@@ -11,11 +11,15 @@ UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/BFL.lbr"
 UsedLibrary="C:/Users/i3luefire/Documents/eagle/i3FE-bfl-hash.monday/hashing.lbr"
 UsedLibrary="C:/eagle/lbr/CASEYS-CUSTOMS/CAPACITORS.lbr"
 UsedLibrary="C:/eagle/lbr/CASEYS-CUSTOMS/casey's_custom_stuff.lbr"
+<<<<<<< HEAD
 UsedLibrary="C:/eagle/lbr/CASEYS-CUSTOMS/BFL.new.lbr"
 UsedLibrary="C:/eagle/lbr/CASEYS-CUSTOMS/BFL.new.test.lbr"
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 
 [Win_1]
 Loc="652 321 1251 720"
+<<<<<<< HEAD
 State=3
 Number=4
 
@@ -29,3 +33,11 @@ Number=0
 Screen="3840 1080"
 Window="Win_1"
 Window="Win_2"
+=======
+State=1
+Number=0
+
+[Desktop]
+Screen="3840 1080"
+Window="Win_1"
+>>>>>>> parent of 5d6930f... new custom bga pkg layout

@@ -2800,6 +2800,7 @@ Source: http://www.cypressindustries.com/pdf/32005-301.pdf</description>
 </package>
 </packages>
 </library>
+<<<<<<< HEAD
 <library name="casey's_custom_stuff">
 <packages>
 <package name="BFL-BGA-VIA-PATTERN">
@@ -3047,6 +3048,8 @@ Source: http://www.cypressindustries.com/pdf/32005-301.pdf</description>
 </package>
 </packages>
 </library>
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 </libraries>
 <attributes>
 </attributes>
@@ -3418,6 +3421,7 @@ design rules under a new name.</description>
 <element name="C302" library="rcl" package="C1210K" value="" x="84.1" y="74.6"/>
 <element name="C301" library="rcl" package="C0805K" value="" x="83.5" y="71.2"/>
 <element name="C501" library="rcl" package="C0805K" value="" x="79.1" y="71.3" rot="R180"/>
+<<<<<<< HEAD
 <element name="CA1" library="casey's_custom_stuff" package="BFL-BGA-VIA-PATTERN" value="BFL-BGA-144-SPC" x="25" y="25" rot="MR180"/>
 <element name="CA2" library="casey's_custom_stuff" package="BFL-BGA-VIA-PATTERN" value="BFL-BGA-144-SPC" x="44.8" y="16.7" rot="MR0"/>
 <element name="CA3" library="casey's_custom_stuff" package="BFL-BGA-VIA-PATTERN" value="BFL-BGA-144-SPC" x="-40.6" y="-90.8"/>
@@ -3426,6 +3430,8 @@ design rules under a new name.</description>
 <element name="CA6" library="casey's_custom_stuff" package="BFL-BGA-VIA-PATTERN" value="BFL-BGA-144-SPC" x="-77.2" y="-90.8"/>
 <element name="CA7" library="casey's_custom_stuff" package="BFL-BGA-VIA-PATTERN" value="BFL-BGA-144-SPC" x="-89.4" y="-90.8"/>
 <element name="CA8" library="casey's_custom_stuff" package="BFL-BGA-VIA-PATTERN" value="BFL-BGA-144-SPC" x="-101.6" y="-90.8"/>
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 </elements>
 <signals>
 <signal name="GND">
@@ -4203,438 +4209,6 @@ design rules under a new name.</description>
 <via x="23.8" y="45" extent="1-16" drill="0.26" diameter="0.5"/>
 <via x="23.8" y="43.4" extent="1-16" drill="0.26" diameter="0.5"/>
 <via x="23.8" y="41.8" extent="1-16" drill="0.26" diameter="0.5"/>
-<contactref element="CA1" pad="N$39"/>
-<contactref element="CA1" pad="N$3"/>
-<contactref element="CA1" pad="N$8"/>
-<contactref element="CA1" pad="N$37"/>
-<contactref element="CA1" pad="N$16"/>
-<contactref element="CA1" pad="N$12"/>
-<contactref element="CA1" pad="N$44"/>
-<contactref element="CA1" pad="N$36"/>
-<contactref element="CA1" pad="N$19"/>
-<contactref element="CA1" pad="N$62"/>
-<contactref element="CA1" pad="N$70"/>
-<contactref element="CA1" pad="N$21"/>
-<contactref element="CA1" pad="N$25"/>
-<contactref element="CA1" pad="N$76"/>
-<contactref element="CA1" pad="N$15"/>
-<contactref element="CA1" pad="N$106"/>
-<contactref element="CA1" pad="N$17"/>
-<contactref element="CA1" pad="N$98"/>
-<contactref element="CA1" pad="N$92"/>
-<contactref element="CA1" pad="N$34"/>
-<contactref element="CA1" pad="N$86"/>
-<contactref element="CA1" pad="N$55"/>
-<contactref element="CA1" pad="N$64"/>
-<contactref element="CA1" pad="N$14"/>
-<contactref element="CA1" pad="N$66"/>
-<contactref element="CA1" pad="N$6"/>
-<contactref element="CA1" pad="N$43"/>
-<contactref element="CA1" pad="N$40"/>
-<contactref element="CA1" pad="N$11"/>
-<contactref element="CA1" pad="N$74"/>
-<contactref element="CA1" pad="N$27"/>
-<contactref element="CA1" pad="N$84"/>
-<contactref element="CA1" pad="N$82"/>
-<contactref element="CA1" pad="N$100"/>
-<contactref element="CA1" pad="N$94"/>
-<contactref element="CA1" pad="N$88"/>
-<contactref element="CA1" pad="N$2"/>
-<contactref element="CA1" pad="N$9"/>
-<contactref element="CA1" pad="N$110"/>
-<contactref element="CA1" pad="N$68"/>
-<contactref element="CA1" pad="N$23"/>
-<contactref element="CA1" pad="N$28"/>
-<contactref element="CA1" pad="N$78"/>
-<contactref element="CA1" pad="N$80"/>
-<contactref element="CA1" pad="N$42"/>
-<contactref element="CA1" pad="N$5"/>
-<contactref element="CA1" pad="N$33"/>
-<contactref element="CA1" pad="N$72"/>
-<contactref element="CA1" pad="N$30"/>
-<contactref element="CA1" pad="N$102"/>
-<contactref element="CA1" pad="N$31"/>
-<contactref element="CA1" pad="N$104"/>
-<contactref element="CA1" pad="N$45"/>
-<contactref element="CA1" pad="N$90"/>
-<contactref element="CA2" pad="N$39"/>
-<contactref element="CA2" pad="N$3"/>
-<contactref element="CA2" pad="N$8"/>
-<contactref element="CA2" pad="N$37"/>
-<contactref element="CA2" pad="N$16"/>
-<contactref element="CA2" pad="N$12"/>
-<contactref element="CA2" pad="N$44"/>
-<contactref element="CA2" pad="N$36"/>
-<contactref element="CA2" pad="N$19"/>
-<contactref element="CA2" pad="N$62"/>
-<contactref element="CA2" pad="N$70"/>
-<contactref element="CA2" pad="N$21"/>
-<contactref element="CA2" pad="N$25"/>
-<contactref element="CA2" pad="N$76"/>
-<contactref element="CA2" pad="N$15"/>
-<contactref element="CA2" pad="N$106"/>
-<contactref element="CA2" pad="N$17"/>
-<contactref element="CA2" pad="N$98"/>
-<contactref element="CA2" pad="N$92"/>
-<contactref element="CA2" pad="N$34"/>
-<contactref element="CA2" pad="N$86"/>
-<contactref element="CA2" pad="N$55"/>
-<contactref element="CA2" pad="N$64"/>
-<contactref element="CA2" pad="N$14"/>
-<contactref element="CA2" pad="N$66"/>
-<contactref element="CA2" pad="N$6"/>
-<contactref element="CA2" pad="N$43"/>
-<contactref element="CA2" pad="N$40"/>
-<contactref element="CA2" pad="N$11"/>
-<contactref element="CA2" pad="N$74"/>
-<contactref element="CA2" pad="N$27"/>
-<contactref element="CA2" pad="N$84"/>
-<contactref element="CA2" pad="N$82"/>
-<contactref element="CA2" pad="N$100"/>
-<contactref element="CA2" pad="N$94"/>
-<contactref element="CA2" pad="N$88"/>
-<contactref element="CA2" pad="N$2"/>
-<contactref element="CA2" pad="N$9"/>
-<contactref element="CA2" pad="N$110"/>
-<contactref element="CA2" pad="N$68"/>
-<contactref element="CA2" pad="N$23"/>
-<contactref element="CA2" pad="N$28"/>
-<contactref element="CA2" pad="N$78"/>
-<contactref element="CA2" pad="N$80"/>
-<contactref element="CA2" pad="N$42"/>
-<contactref element="CA2" pad="N$5"/>
-<contactref element="CA2" pad="N$33"/>
-<contactref element="CA2" pad="N$72"/>
-<contactref element="CA2" pad="N$30"/>
-<contactref element="CA2" pad="N$102"/>
-<contactref element="CA2" pad="N$31"/>
-<contactref element="CA2" pad="N$104"/>
-<contactref element="CA2" pad="N$45"/>
-<contactref element="CA2" pad="N$90"/>
-<contactref element="CA3" pad="N$39"/>
-<contactref element="CA3" pad="N$3"/>
-<contactref element="CA3" pad="N$8"/>
-<contactref element="CA3" pad="N$37"/>
-<contactref element="CA3" pad="N$16"/>
-<contactref element="CA3" pad="N$12"/>
-<contactref element="CA3" pad="N$44"/>
-<contactref element="CA3" pad="N$36"/>
-<contactref element="CA3" pad="N$19"/>
-<contactref element="CA3" pad="N$62"/>
-<contactref element="CA3" pad="N$70"/>
-<contactref element="CA3" pad="N$21"/>
-<contactref element="CA3" pad="N$25"/>
-<contactref element="CA3" pad="N$76"/>
-<contactref element="CA3" pad="N$15"/>
-<contactref element="CA3" pad="N$106"/>
-<contactref element="CA3" pad="N$17"/>
-<contactref element="CA3" pad="N$98"/>
-<contactref element="CA3" pad="N$92"/>
-<contactref element="CA3" pad="N$34"/>
-<contactref element="CA3" pad="N$86"/>
-<contactref element="CA3" pad="N$55"/>
-<contactref element="CA3" pad="N$64"/>
-<contactref element="CA3" pad="N$14"/>
-<contactref element="CA3" pad="N$66"/>
-<contactref element="CA3" pad="N$6"/>
-<contactref element="CA3" pad="N$43"/>
-<contactref element="CA3" pad="N$40"/>
-<contactref element="CA3" pad="N$11"/>
-<contactref element="CA3" pad="N$74"/>
-<contactref element="CA3" pad="N$27"/>
-<contactref element="CA3" pad="N$84"/>
-<contactref element="CA3" pad="N$82"/>
-<contactref element="CA3" pad="N$100"/>
-<contactref element="CA3" pad="N$94"/>
-<contactref element="CA3" pad="N$88"/>
-<contactref element="CA3" pad="N$2"/>
-<contactref element="CA3" pad="N$9"/>
-<contactref element="CA3" pad="N$110"/>
-<contactref element="CA3" pad="N$68"/>
-<contactref element="CA3" pad="N$23"/>
-<contactref element="CA3" pad="N$28"/>
-<contactref element="CA3" pad="N$78"/>
-<contactref element="CA3" pad="N$80"/>
-<contactref element="CA3" pad="N$42"/>
-<contactref element="CA3" pad="N$5"/>
-<contactref element="CA3" pad="N$33"/>
-<contactref element="CA3" pad="N$72"/>
-<contactref element="CA3" pad="N$30"/>
-<contactref element="CA3" pad="N$102"/>
-<contactref element="CA3" pad="N$31"/>
-<contactref element="CA3" pad="N$104"/>
-<contactref element="CA3" pad="N$45"/>
-<contactref element="CA3" pad="N$90"/>
-<contactref element="CA4" pad="N$39"/>
-<contactref element="CA4" pad="N$3"/>
-<contactref element="CA4" pad="N$8"/>
-<contactref element="CA4" pad="N$37"/>
-<contactref element="CA4" pad="N$16"/>
-<contactref element="CA4" pad="N$12"/>
-<contactref element="CA4" pad="N$44"/>
-<contactref element="CA4" pad="N$36"/>
-<contactref element="CA4" pad="N$19"/>
-<contactref element="CA4" pad="N$62"/>
-<contactref element="CA4" pad="N$70"/>
-<contactref element="CA4" pad="N$21"/>
-<contactref element="CA4" pad="N$25"/>
-<contactref element="CA4" pad="N$76"/>
-<contactref element="CA4" pad="N$15"/>
-<contactref element="CA4" pad="N$106"/>
-<contactref element="CA4" pad="N$17"/>
-<contactref element="CA4" pad="N$98"/>
-<contactref element="CA4" pad="N$92"/>
-<contactref element="CA4" pad="N$34"/>
-<contactref element="CA4" pad="N$86"/>
-<contactref element="CA4" pad="N$55"/>
-<contactref element="CA4" pad="N$64"/>
-<contactref element="CA4" pad="N$14"/>
-<contactref element="CA4" pad="N$66"/>
-<contactref element="CA4" pad="N$6"/>
-<contactref element="CA4" pad="N$43"/>
-<contactref element="CA4" pad="N$40"/>
-<contactref element="CA4" pad="N$11"/>
-<contactref element="CA4" pad="N$74"/>
-<contactref element="CA4" pad="N$27"/>
-<contactref element="CA4" pad="N$84"/>
-<contactref element="CA4" pad="N$82"/>
-<contactref element="CA4" pad="N$100"/>
-<contactref element="CA4" pad="N$94"/>
-<contactref element="CA4" pad="N$88"/>
-<contactref element="CA4" pad="N$2"/>
-<contactref element="CA4" pad="N$9"/>
-<contactref element="CA4" pad="N$110"/>
-<contactref element="CA4" pad="N$68"/>
-<contactref element="CA4" pad="N$23"/>
-<contactref element="CA4" pad="N$28"/>
-<contactref element="CA4" pad="N$78"/>
-<contactref element="CA4" pad="N$80"/>
-<contactref element="CA4" pad="N$42"/>
-<contactref element="CA4" pad="N$5"/>
-<contactref element="CA4" pad="N$33"/>
-<contactref element="CA4" pad="N$72"/>
-<contactref element="CA4" pad="N$30"/>
-<contactref element="CA4" pad="N$102"/>
-<contactref element="CA4" pad="N$31"/>
-<contactref element="CA4" pad="N$104"/>
-<contactref element="CA4" pad="N$45"/>
-<contactref element="CA4" pad="N$90"/>
-<contactref element="CA5" pad="N$39"/>
-<contactref element="CA5" pad="N$3"/>
-<contactref element="CA5" pad="N$8"/>
-<contactref element="CA5" pad="N$37"/>
-<contactref element="CA5" pad="N$16"/>
-<contactref element="CA5" pad="N$12"/>
-<contactref element="CA5" pad="N$44"/>
-<contactref element="CA5" pad="N$36"/>
-<contactref element="CA5" pad="N$19"/>
-<contactref element="CA5" pad="N$62"/>
-<contactref element="CA5" pad="N$70"/>
-<contactref element="CA5" pad="N$21"/>
-<contactref element="CA5" pad="N$25"/>
-<contactref element="CA5" pad="N$76"/>
-<contactref element="CA5" pad="N$15"/>
-<contactref element="CA5" pad="N$106"/>
-<contactref element="CA5" pad="N$17"/>
-<contactref element="CA5" pad="N$98"/>
-<contactref element="CA5" pad="N$92"/>
-<contactref element="CA5" pad="N$34"/>
-<contactref element="CA5" pad="N$86"/>
-<contactref element="CA5" pad="N$55"/>
-<contactref element="CA5" pad="N$64"/>
-<contactref element="CA5" pad="N$14"/>
-<contactref element="CA5" pad="N$66"/>
-<contactref element="CA5" pad="N$6"/>
-<contactref element="CA5" pad="N$43"/>
-<contactref element="CA5" pad="N$40"/>
-<contactref element="CA5" pad="N$11"/>
-<contactref element="CA5" pad="N$74"/>
-<contactref element="CA5" pad="N$27"/>
-<contactref element="CA5" pad="N$84"/>
-<contactref element="CA5" pad="N$82"/>
-<contactref element="CA5" pad="N$100"/>
-<contactref element="CA5" pad="N$94"/>
-<contactref element="CA5" pad="N$88"/>
-<contactref element="CA5" pad="N$2"/>
-<contactref element="CA5" pad="N$9"/>
-<contactref element="CA5" pad="N$110"/>
-<contactref element="CA5" pad="N$68"/>
-<contactref element="CA5" pad="N$23"/>
-<contactref element="CA5" pad="N$28"/>
-<contactref element="CA5" pad="N$78"/>
-<contactref element="CA5" pad="N$80"/>
-<contactref element="CA5" pad="N$42"/>
-<contactref element="CA5" pad="N$5"/>
-<contactref element="CA5" pad="N$33"/>
-<contactref element="CA5" pad="N$72"/>
-<contactref element="CA5" pad="N$30"/>
-<contactref element="CA5" pad="N$102"/>
-<contactref element="CA5" pad="N$31"/>
-<contactref element="CA5" pad="N$104"/>
-<contactref element="CA5" pad="N$45"/>
-<contactref element="CA5" pad="N$90"/>
-<contactref element="CA6" pad="N$39"/>
-<contactref element="CA6" pad="N$3"/>
-<contactref element="CA6" pad="N$8"/>
-<contactref element="CA6" pad="N$37"/>
-<contactref element="CA6" pad="N$16"/>
-<contactref element="CA6" pad="N$12"/>
-<contactref element="CA6" pad="N$44"/>
-<contactref element="CA6" pad="N$36"/>
-<contactref element="CA6" pad="N$19"/>
-<contactref element="CA6" pad="N$62"/>
-<contactref element="CA6" pad="N$70"/>
-<contactref element="CA6" pad="N$21"/>
-<contactref element="CA6" pad="N$25"/>
-<contactref element="CA6" pad="N$76"/>
-<contactref element="CA6" pad="N$15"/>
-<contactref element="CA6" pad="N$106"/>
-<contactref element="CA6" pad="N$17"/>
-<contactref element="CA6" pad="N$98"/>
-<contactref element="CA6" pad="N$92"/>
-<contactref element="CA6" pad="N$34"/>
-<contactref element="CA6" pad="N$86"/>
-<contactref element="CA6" pad="N$55"/>
-<contactref element="CA6" pad="N$64"/>
-<contactref element="CA6" pad="N$14"/>
-<contactref element="CA6" pad="N$66"/>
-<contactref element="CA6" pad="N$6"/>
-<contactref element="CA6" pad="N$43"/>
-<contactref element="CA6" pad="N$40"/>
-<contactref element="CA6" pad="N$11"/>
-<contactref element="CA6" pad="N$74"/>
-<contactref element="CA6" pad="N$27"/>
-<contactref element="CA6" pad="N$84"/>
-<contactref element="CA6" pad="N$82"/>
-<contactref element="CA6" pad="N$100"/>
-<contactref element="CA6" pad="N$94"/>
-<contactref element="CA6" pad="N$88"/>
-<contactref element="CA6" pad="N$2"/>
-<contactref element="CA6" pad="N$9"/>
-<contactref element="CA6" pad="N$110"/>
-<contactref element="CA6" pad="N$68"/>
-<contactref element="CA6" pad="N$23"/>
-<contactref element="CA6" pad="N$28"/>
-<contactref element="CA6" pad="N$78"/>
-<contactref element="CA6" pad="N$80"/>
-<contactref element="CA6" pad="N$42"/>
-<contactref element="CA6" pad="N$5"/>
-<contactref element="CA6" pad="N$33"/>
-<contactref element="CA6" pad="N$72"/>
-<contactref element="CA6" pad="N$30"/>
-<contactref element="CA6" pad="N$102"/>
-<contactref element="CA6" pad="N$31"/>
-<contactref element="CA6" pad="N$104"/>
-<contactref element="CA6" pad="N$45"/>
-<contactref element="CA6" pad="N$90"/>
-<contactref element="CA7" pad="N$39"/>
-<contactref element="CA7" pad="N$3"/>
-<contactref element="CA7" pad="N$8"/>
-<contactref element="CA7" pad="N$37"/>
-<contactref element="CA7" pad="N$16"/>
-<contactref element="CA7" pad="N$12"/>
-<contactref element="CA7" pad="N$44"/>
-<contactref element="CA7" pad="N$36"/>
-<contactref element="CA7" pad="N$19"/>
-<contactref element="CA7" pad="N$62"/>
-<contactref element="CA7" pad="N$70"/>
-<contactref element="CA7" pad="N$21"/>
-<contactref element="CA7" pad="N$25"/>
-<contactref element="CA7" pad="N$76"/>
-<contactref element="CA7" pad="N$15"/>
-<contactref element="CA7" pad="N$106"/>
-<contactref element="CA7" pad="N$17"/>
-<contactref element="CA7" pad="N$98"/>
-<contactref element="CA7" pad="N$92"/>
-<contactref element="CA7" pad="N$34"/>
-<contactref element="CA7" pad="N$86"/>
-<contactref element="CA7" pad="N$55"/>
-<contactref element="CA7" pad="N$64"/>
-<contactref element="CA7" pad="N$14"/>
-<contactref element="CA7" pad="N$66"/>
-<contactref element="CA7" pad="N$6"/>
-<contactref element="CA7" pad="N$43"/>
-<contactref element="CA7" pad="N$40"/>
-<contactref element="CA7" pad="N$11"/>
-<contactref element="CA7" pad="N$74"/>
-<contactref element="CA7" pad="N$27"/>
-<contactref element="CA7" pad="N$84"/>
-<contactref element="CA7" pad="N$82"/>
-<contactref element="CA7" pad="N$100"/>
-<contactref element="CA7" pad="N$94"/>
-<contactref element="CA7" pad="N$88"/>
-<contactref element="CA7" pad="N$2"/>
-<contactref element="CA7" pad="N$9"/>
-<contactref element="CA7" pad="N$110"/>
-<contactref element="CA7" pad="N$68"/>
-<contactref element="CA7" pad="N$23"/>
-<contactref element="CA7" pad="N$28"/>
-<contactref element="CA7" pad="N$78"/>
-<contactref element="CA7" pad="N$80"/>
-<contactref element="CA7" pad="N$42"/>
-<contactref element="CA7" pad="N$5"/>
-<contactref element="CA7" pad="N$33"/>
-<contactref element="CA7" pad="N$72"/>
-<contactref element="CA7" pad="N$30"/>
-<contactref element="CA7" pad="N$102"/>
-<contactref element="CA7" pad="N$31"/>
-<contactref element="CA7" pad="N$104"/>
-<contactref element="CA7" pad="N$45"/>
-<contactref element="CA7" pad="N$90"/>
-<contactref element="CA8" pad="N$39"/>
-<contactref element="CA8" pad="N$3"/>
-<contactref element="CA8" pad="N$8"/>
-<contactref element="CA8" pad="N$37"/>
-<contactref element="CA8" pad="N$16"/>
-<contactref element="CA8" pad="N$12"/>
-<contactref element="CA8" pad="N$44"/>
-<contactref element="CA8" pad="N$36"/>
-<contactref element="CA8" pad="N$19"/>
-<contactref element="CA8" pad="N$62"/>
-<contactref element="CA8" pad="N$70"/>
-<contactref element="CA8" pad="N$21"/>
-<contactref element="CA8" pad="N$25"/>
-<contactref element="CA8" pad="N$76"/>
-<contactref element="CA8" pad="N$15"/>
-<contactref element="CA8" pad="N$106"/>
-<contactref element="CA8" pad="N$17"/>
-<contactref element="CA8" pad="N$98"/>
-<contactref element="CA8" pad="N$92"/>
-<contactref element="CA8" pad="N$34"/>
-<contactref element="CA8" pad="N$86"/>
-<contactref element="CA8" pad="N$55"/>
-<contactref element="CA8" pad="N$64"/>
-<contactref element="CA8" pad="N$14"/>
-<contactref element="CA8" pad="N$66"/>
-<contactref element="CA8" pad="N$6"/>
-<contactref element="CA8" pad="N$43"/>
-<contactref element="CA8" pad="N$40"/>
-<contactref element="CA8" pad="N$11"/>
-<contactref element="CA8" pad="N$74"/>
-<contactref element="CA8" pad="N$27"/>
-<contactref element="CA8" pad="N$84"/>
-<contactref element="CA8" pad="N$82"/>
-<contactref element="CA8" pad="N$100"/>
-<contactref element="CA8" pad="N$94"/>
-<contactref element="CA8" pad="N$88"/>
-<contactref element="CA8" pad="N$2"/>
-<contactref element="CA8" pad="N$9"/>
-<contactref element="CA8" pad="N$110"/>
-<contactref element="CA8" pad="N$68"/>
-<contactref element="CA8" pad="N$23"/>
-<contactref element="CA8" pad="N$28"/>
-<contactref element="CA8" pad="N$78"/>
-<contactref element="CA8" pad="N$80"/>
-<contactref element="CA8" pad="N$42"/>
-<contactref element="CA8" pad="N$5"/>
-<contactref element="CA8" pad="N$33"/>
-<contactref element="CA8" pad="N$72"/>
-<contactref element="CA8" pad="N$30"/>
-<contactref element="CA8" pad="N$102"/>
-<contactref element="CA8" pad="N$31"/>
-<contactref element="CA8" pad="N$104"/>
-<contactref element="CA8" pad="N$45"/>
-<contactref element="CA8" pad="N$90"/>
 <wire x1="127.1" y1="97.75" x2="131.3" y2="97.75" width="0" layer="19" extent="1-1"/>
 <wire x1="122.9" y1="97.75" x2="127.1" y2="97.75" width="0" layer="19" extent="1-1"/>
 <wire x1="118.7" y1="97.75" x2="122.9" y2="97.75" width="0" layer="19" extent="1-1"/>
@@ -5396,6 +4970,7 @@ design rules under a new name.</description>
 <wire x1="6.275" y1="-26.9" x2="6.275" y2="-30" width="0" layer="19" extent="1-1"/>
 <wire x1="4.525" y1="-23.8" x2="6.275" y2="-26.9" width="0" layer="19" extent="1-1"/>
 <wire x1="4.525" y1="-20.7" x2="4.525" y2="-23.8" width="0" layer="19" extent="1-1"/>
+<<<<<<< HEAD
 <wire x1="41.22" y1="20.31" x2="0.725" y2="-70.3" width="0" layer="19" extent="1-1"/>
 <wire x1="41.2" y1="19.9" x2="41.22" y2="20.31" width="0" layer="19" extent="1-1"/>
 <wire x1="41.2" y1="18.3" x2="41.2" y2="19.9" width="0" layer="19" extent="1-1"/>
@@ -5774,6 +5349,8 @@ design rules under a new name.</description>
 <wire x1="-99.62" y1="-87.19" x2="-99.6" y2="-87.6" width="0" layer="19" extent="1-1"/>
 <wire x1="-98.02" y1="-87.19" x2="-99.62" y2="-87.19" width="0" layer="19" extent="1-1"/>
 <wire x1="-98" y1="-87.6" x2="-98.02" y2="-87.19" width="0" layer="19" extent="1-1"/>
+=======
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 </signal>
 <signal name="VDD-1VB">
 <contactref element="U7" pad="F2"/>
@@ -6195,218 +5772,6 @@ design rules under a new name.</description>
 <contactref element="PS2" pad="P$20"/>
 <contactref element="PS2" pad="P$22"/>
 <contactref element="PS2" pad="P$24"/>
-<contactref element="CA8" pad="P$1"/>
-<contactref element="CA8" pad="P$48"/>
-<contactref element="CA8" pad="P$51"/>
-<contactref element="CA8" pad="P$56"/>
-<contactref element="CA8" pad="P$63"/>
-<contactref element="CA8" pad="P$22"/>
-<contactref element="CA8" pad="P$71"/>
-<contactref element="CA8" pad="P$77"/>
-<contactref element="CA8" pad="P$81"/>
-<contactref element="CA8" pad="P$103"/>
-<contactref element="CA8" pad="P$105"/>
-<contactref element="CA8" pad="P$91"/>
-<contactref element="CA8" pad="P$85"/>
-<contactref element="CA8" pad="P$32"/>
-<contactref element="CA8" pad="P$35"/>
-<contactref element="CA8" pad="P$49"/>
-<contactref element="CA8" pad="P$52"/>
-<contactref element="CA8" pad="P$67"/>
-<contactref element="CA8" pad="P$29"/>
-<contactref element="CA8" pad="P$83"/>
-<contactref element="CA8" pad="P$47"/>
-<contactref element="CA8" pad="P$69"/>
-<contactref element="CA8" pad="P$75"/>
-<contactref element="CA8" pad="P$24"/>
-<contactref element="CA8" pad="P$107"/>
-<contactref element="CA8" pad="P$50"/>
-<contactref element="CA8" pad="P$99"/>
-<contactref element="CA8" pad="P$93"/>
-<contactref element="CA8" pad="P$87"/>
-<contactref element="CA8" pad="P$18"/>
-<contactref element="CA8" pad="P$38"/>
-<contactref element="CA8" pad="P$61"/>
-<contactref element="CA8" pad="P$10"/>
-<contactref element="CA8" pad="P$111"/>
-<contactref element="CA8" pad="P$58"/>
-<contactref element="CA8" pad="P$13"/>
-<contactref element="CA8" pad="P$41"/>
-<contactref element="CA8" pad="P$60"/>
-<contactref element="CA8" pad="P$57"/>
-<contactref element="CA8" pad="P$7"/>
-<contactref element="CA8" pad="P$73"/>
-<contactref element="CA8" pad="P$4"/>
-<contactref element="CA8" pad="P$101"/>
-<contactref element="CA8" pad="P$46"/>
-<contactref element="CA8" pad="P$95"/>
-<contactref element="CA8" pad="P$20"/>
-<contactref element="CA8" pad="P$89"/>
-<contactref element="CA8" pad="P$59"/>
-<contactref element="CA8" pad="P$53"/>
-<contactref element="CA8" pad="P$54"/>
-<contactref element="CA8" pad="P$26"/>
-<contactref element="CA8" pad="P$79"/>
-<contactref element="CA8" pad="P$65"/>
-<contactref element="CA7" pad="P$1"/>
-<contactref element="CA7" pad="P$48"/>
-<contactref element="CA7" pad="P$51"/>
-<contactref element="CA7" pad="P$56"/>
-<contactref element="CA7" pad="P$63"/>
-<contactref element="CA7" pad="P$22"/>
-<contactref element="CA7" pad="P$71"/>
-<contactref element="CA7" pad="P$77"/>
-<contactref element="CA7" pad="P$81"/>
-<contactref element="CA7" pad="P$103"/>
-<contactref element="CA7" pad="P$105"/>
-<contactref element="CA7" pad="P$91"/>
-<contactref element="CA7" pad="P$85"/>
-<contactref element="CA7" pad="P$32"/>
-<contactref element="CA7" pad="P$35"/>
-<contactref element="CA7" pad="P$49"/>
-<contactref element="CA7" pad="P$52"/>
-<contactref element="CA7" pad="P$67"/>
-<contactref element="CA7" pad="P$29"/>
-<contactref element="CA7" pad="P$83"/>
-<contactref element="CA7" pad="P$47"/>
-<contactref element="CA7" pad="P$69"/>
-<contactref element="CA7" pad="P$75"/>
-<contactref element="CA7" pad="P$24"/>
-<contactref element="CA7" pad="P$107"/>
-<contactref element="CA7" pad="P$50"/>
-<contactref element="CA7" pad="P$99"/>
-<contactref element="CA7" pad="P$93"/>
-<contactref element="CA7" pad="P$87"/>
-<contactref element="CA7" pad="P$18"/>
-<contactref element="CA7" pad="P$38"/>
-<contactref element="CA7" pad="P$61"/>
-<contactref element="CA7" pad="P$10"/>
-<contactref element="CA7" pad="P$111"/>
-<contactref element="CA7" pad="P$58"/>
-<contactref element="CA7" pad="P$13"/>
-<contactref element="CA7" pad="P$41"/>
-<contactref element="CA7" pad="P$60"/>
-<contactref element="CA7" pad="P$57"/>
-<contactref element="CA7" pad="P$7"/>
-<contactref element="CA7" pad="P$73"/>
-<contactref element="CA7" pad="P$4"/>
-<contactref element="CA7" pad="P$101"/>
-<contactref element="CA7" pad="P$46"/>
-<contactref element="CA7" pad="P$95"/>
-<contactref element="CA7" pad="P$20"/>
-<contactref element="CA7" pad="P$89"/>
-<contactref element="CA7" pad="P$59"/>
-<contactref element="CA7" pad="P$53"/>
-<contactref element="CA7" pad="P$54"/>
-<contactref element="CA7" pad="P$26"/>
-<contactref element="CA7" pad="P$79"/>
-<contactref element="CA7" pad="P$65"/>
-<contactref element="CA6" pad="P$1"/>
-<contactref element="CA6" pad="P$48"/>
-<contactref element="CA6" pad="P$51"/>
-<contactref element="CA6" pad="P$56"/>
-<contactref element="CA6" pad="P$63"/>
-<contactref element="CA6" pad="P$22"/>
-<contactref element="CA6" pad="P$71"/>
-<contactref element="CA6" pad="P$77"/>
-<contactref element="CA6" pad="P$81"/>
-<contactref element="CA6" pad="P$103"/>
-<contactref element="CA6" pad="P$105"/>
-<contactref element="CA6" pad="P$91"/>
-<contactref element="CA6" pad="P$85"/>
-<contactref element="CA6" pad="P$32"/>
-<contactref element="CA6" pad="P$35"/>
-<contactref element="CA6" pad="P$49"/>
-<contactref element="CA6" pad="P$52"/>
-<contactref element="CA6" pad="P$67"/>
-<contactref element="CA6" pad="P$29"/>
-<contactref element="CA6" pad="P$83"/>
-<contactref element="CA6" pad="P$47"/>
-<contactref element="CA6" pad="P$69"/>
-<contactref element="CA6" pad="P$75"/>
-<contactref element="CA6" pad="P$24"/>
-<contactref element="CA6" pad="P$107"/>
-<contactref element="CA6" pad="P$50"/>
-<contactref element="CA6" pad="P$99"/>
-<contactref element="CA6" pad="P$93"/>
-<contactref element="CA6" pad="P$87"/>
-<contactref element="CA6" pad="P$18"/>
-<contactref element="CA6" pad="P$38"/>
-<contactref element="CA6" pad="P$61"/>
-<contactref element="CA6" pad="P$10"/>
-<contactref element="CA6" pad="P$111"/>
-<contactref element="CA6" pad="P$58"/>
-<contactref element="CA6" pad="P$13"/>
-<contactref element="CA6" pad="P$41"/>
-<contactref element="CA6" pad="P$60"/>
-<contactref element="CA6" pad="P$57"/>
-<contactref element="CA6" pad="P$7"/>
-<contactref element="CA6" pad="P$73"/>
-<contactref element="CA6" pad="P$4"/>
-<contactref element="CA6" pad="P$101"/>
-<contactref element="CA6" pad="P$46"/>
-<contactref element="CA6" pad="P$95"/>
-<contactref element="CA6" pad="P$20"/>
-<contactref element="CA6" pad="P$89"/>
-<contactref element="CA6" pad="P$59"/>
-<contactref element="CA6" pad="P$53"/>
-<contactref element="CA6" pad="P$54"/>
-<contactref element="CA6" pad="P$26"/>
-<contactref element="CA6" pad="P$79"/>
-<contactref element="CA6" pad="P$65"/>
-<contactref element="CA5" pad="P$1"/>
-<contactref element="CA5" pad="P$48"/>
-<contactref element="CA5" pad="P$51"/>
-<contactref element="CA5" pad="P$56"/>
-<contactref element="CA5" pad="P$63"/>
-<contactref element="CA5" pad="P$22"/>
-<contactref element="CA5" pad="P$71"/>
-<contactref element="CA5" pad="P$77"/>
-<contactref element="CA5" pad="P$81"/>
-<contactref element="CA5" pad="P$103"/>
-<contactref element="CA5" pad="P$105"/>
-<contactref element="CA5" pad="P$91"/>
-<contactref element="CA5" pad="P$85"/>
-<contactref element="CA5" pad="P$32"/>
-<contactref element="CA5" pad="P$35"/>
-<contactref element="CA5" pad="P$49"/>
-<contactref element="CA5" pad="P$52"/>
-<contactref element="CA5" pad="P$67"/>
-<contactref element="CA5" pad="P$29"/>
-<contactref element="CA5" pad="P$83"/>
-<contactref element="CA5" pad="P$47"/>
-<contactref element="CA5" pad="P$69"/>
-<contactref element="CA5" pad="P$75"/>
-<contactref element="CA5" pad="P$24"/>
-<contactref element="CA5" pad="P$107"/>
-<contactref element="CA5" pad="P$50"/>
-<contactref element="CA5" pad="P$99"/>
-<contactref element="CA5" pad="P$93"/>
-<contactref element="CA5" pad="P$87"/>
-<contactref element="CA5" pad="P$18"/>
-<contactref element="CA5" pad="P$38"/>
-<contactref element="CA5" pad="P$61"/>
-<contactref element="CA5" pad="P$10"/>
-<contactref element="CA5" pad="P$111"/>
-<contactref element="CA5" pad="P$58"/>
-<contactref element="CA5" pad="P$13"/>
-<contactref element="CA5" pad="P$41"/>
-<contactref element="CA5" pad="P$60"/>
-<contactref element="CA5" pad="P$57"/>
-<contactref element="CA5" pad="P$7"/>
-<contactref element="CA5" pad="P$73"/>
-<contactref element="CA5" pad="P$4"/>
-<contactref element="CA5" pad="P$101"/>
-<contactref element="CA5" pad="P$46"/>
-<contactref element="CA5" pad="P$95"/>
-<contactref element="CA5" pad="P$20"/>
-<contactref element="CA5" pad="P$89"/>
-<contactref element="CA5" pad="P$59"/>
-<contactref element="CA5" pad="P$53"/>
-<contactref element="CA5" pad="P$54"/>
-<contactref element="CA5" pad="P$26"/>
-<contactref element="CA5" pad="P$79"/>
-<contactref element="CA5" pad="P$65"/>
 <wire x1="118.65" y1="78" x2="128.81" y2="78" width="0" layer="19" extent="1-1"/>
 <wire x1="116.11" y1="78" x2="118.65" y2="78" width="0" layer="19" extent="1-1"/>
 <wire x1="111.03" y1="78" x2="116.11" y2="78" width="0" layer="19" extent="1-1"/>
@@ -6630,218 +5995,6 @@ design rules under a new name.</description>
 <wire x1="138.6" y1="29.4" x2="138.6" y2="28.6" width="0" layer="19" extent="1-1"/>
 <wire x1="138.6" y1="22.2" x2="138.6" y2="23" width="0" layer="19" extent="1-1"/>
 <wire x1="138.6" y1="21.4" x2="138.6" y2="20.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-60.62" y1="-87.19" x2="112.2" y2="21.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-62.22" y1="-87.19" x2="-60.62" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-62.2" y1="-86.8" x2="-62.22" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-62.2" y1="-88.4" x2="-62.22" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-62.22" y1="-89.59" x2="-62.2" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-62.2" y1="-90" x2="-62.22" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-63.82" y1="-89.59" x2="-62.22" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-63.8" y1="-90" x2="-63.82" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-63.8" y1="-88.4" x2="-63.82" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-63.82" y1="-87.19" x2="-63.8" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-63.8" y1="-86.8" x2="-63.82" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-63.8" y1="-91.6" x2="-63.8" y2="-90" width="0" layer="19" extent="1-1"/>
-<wire x1="-63.82" y1="-91.99" x2="-63.8" y2="-91.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-63.8" y1="-93.2" x2="-63.82" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-63.82" y1="-94.39" x2="-63.8" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-63.8" y1="-94.8" x2="-63.82" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-65.42" y1="-94.39" x2="-63.82" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-65.4" y1="-94.8" x2="-65.42" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-65.4" y1="-93.2" x2="-65.42" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-65.42" y1="-91.99" x2="-65.4" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-65.4" y1="-91.6" x2="-65.42" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-67" y1="-94.8" x2="-65.4" y2="-94.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.02" y1="-94.39" x2="-67" y2="-94.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-67" y1="-93.2" x2="-67.02" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.02" y1="-91.99" x2="-67" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-67" y1="-91.6" x2="-67.02" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.6" y1="-94.8" x2="-67" y2="-94.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.62" y1="-94.39" x2="-68.6" y2="-94.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.6" y1="-93.2" x2="-68.62" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.62" y1="-91.99" x2="-68.6" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.6" y1="-91.6" x2="-68.62" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.6" y1="-90" x2="-68.6" y2="-91.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.62" y1="-89.59" x2="-68.6" y2="-90" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.6" y1="-88.4" x2="-68.62" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.62" y1="-87.19" x2="-68.6" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.6" y1="-86.8" x2="-68.62" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-62.22" y1="-94.39" x2="-63.82" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-62.2" y1="-93.2" x2="-62.22" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-62.22" y1="-91.99" x2="-62.2" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-62.2" y1="-91.6" x2="-62.22" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.02" y1="-89.59" x2="-68.62" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-67" y1="-90" x2="-67.02" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-67" y1="-88.4" x2="-67.02" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.02" y1="-87.19" x2="-67" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-67" y1="-86.8" x2="-67.02" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-65.42" y1="-89.59" x2="-63.82" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-65.4" y1="-90" x2="-65.42" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-65.4" y1="-88.4" x2="-65.42" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-65.42" y1="-87.19" x2="-65.4" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-65.4" y1="-86.8" x2="-65.42" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-60.62" y1="-94.39" x2="-62.22" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-60.62" y1="-91.99" x2="-62.22" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-60.62" y1="-89.59" x2="-62.22" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-72.82" y1="-94.39" x2="-68.62" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-74.42" y1="-94.39" x2="-72.82" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-74.4" y1="-93.2" x2="-74.42" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-74.42" y1="-91.99" x2="-74.4" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-74.4" y1="-91.6" x2="-74.42" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-76.02" y1="-94.39" x2="-74.42" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-76" y1="-94.8" x2="-76.02" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-76" y1="-93.2" x2="-76.02" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-76.02" y1="-91.99" x2="-76" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-76" y1="-91.6" x2="-76.02" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-77.62" y1="-94.39" x2="-76.02" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-77.6" y1="-94.8" x2="-77.62" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-77.6" y1="-93.2" x2="-77.62" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-77.62" y1="-91.99" x2="-77.6" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-77.6" y1="-91.6" x2="-77.62" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-79.2" y1="-94.8" x2="-77.6" y2="-94.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-79.22" y1="-94.39" x2="-79.2" y2="-94.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-79.2" y1="-93.2" x2="-79.22" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-79.22" y1="-91.99" x2="-79.2" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-79.2" y1="-91.6" x2="-79.22" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-80.8" y1="-94.8" x2="-79.2" y2="-94.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-80.82" y1="-94.39" x2="-80.8" y2="-94.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-80.8" y1="-93.2" x2="-80.82" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-80.82" y1="-91.99" x2="-80.8" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-80.8" y1="-91.6" x2="-80.82" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-80.8" y1="-90" x2="-80.8" y2="-91.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-80.82" y1="-89.59" x2="-80.8" y2="-90" width="0" layer="19" extent="1-1"/>
-<wire x1="-80.8" y1="-88.4" x2="-80.82" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-80.82" y1="-87.19" x2="-80.8" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-80.8" y1="-86.8" x2="-80.82" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-79.22" y1="-89.59" x2="-80.82" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-79.2" y1="-90" x2="-79.22" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-79.2" y1="-88.4" x2="-79.22" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-79.22" y1="-87.19" x2="-79.2" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-79.2" y1="-86.8" x2="-79.22" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-77.62" y1="-89.59" x2="-79.22" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-77.6" y1="-90" x2="-77.62" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-77.6" y1="-88.4" x2="-77.62" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-77.62" y1="-87.19" x2="-77.6" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-77.6" y1="-86.8" x2="-77.62" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-72.82" y1="-91.99" x2="-74.42" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-76.02" y1="-89.59" x2="-77.62" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-76" y1="-90" x2="-76.02" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-76" y1="-88.4" x2="-76.02" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-76.02" y1="-87.19" x2="-76" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-76" y1="-86.8" x2="-76.02" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-74.42" y1="-89.59" x2="-76.02" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-74.4" y1="-90" x2="-74.42" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-74.4" y1="-88.4" x2="-74.42" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-74.42" y1="-87.19" x2="-74.4" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-74.4" y1="-86.8" x2="-74.42" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-72.82" y1="-89.59" x2="-74.42" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-72.82" y1="-87.19" x2="-74.42" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-85.02" y1="-94.39" x2="-80.82" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-86.62" y1="-94.39" x2="-85.02" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-86.6" y1="-93.2" x2="-86.62" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-86.62" y1="-91.99" x2="-86.6" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-86.6" y1="-91.6" x2="-86.62" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.22" y1="-94.39" x2="-86.62" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.2" y1="-94.8" x2="-88.22" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.2" y1="-93.2" x2="-88.22" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.22" y1="-91.99" x2="-88.2" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.2" y1="-91.6" x2="-88.22" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.82" y1="-94.39" x2="-88.22" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.8" y1="-94.8" x2="-89.82" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.8" y1="-93.2" x2="-89.82" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.82" y1="-91.99" x2="-89.8" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.8" y1="-91.6" x2="-89.82" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.4" y1="-94.8" x2="-89.8" y2="-94.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.42" y1="-94.39" x2="-91.4" y2="-94.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.4" y1="-93.2" x2="-91.42" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.42" y1="-91.99" x2="-91.4" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.4" y1="-91.6" x2="-91.42" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-93" y1="-94.8" x2="-91.4" y2="-94.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-93.02" y1="-94.39" x2="-93" y2="-94.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-93" y1="-93.2" x2="-93.02" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-93.02" y1="-91.99" x2="-93" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-93" y1="-91.6" x2="-93.02" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-93" y1="-90" x2="-93" y2="-91.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-93.02" y1="-89.59" x2="-93" y2="-90" width="0" layer="19" extent="1-1"/>
-<wire x1="-93" y1="-88.4" x2="-93.02" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-93.02" y1="-87.19" x2="-93" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-93" y1="-86.8" x2="-93.02" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.42" y1="-89.59" x2="-93.02" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.4" y1="-90" x2="-91.42" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.4" y1="-88.4" x2="-91.42" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.42" y1="-87.19" x2="-91.4" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-91.4" y1="-86.8" x2="-91.42" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.82" y1="-89.59" x2="-91.42" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.8" y1="-90" x2="-89.82" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.8" y1="-88.4" x2="-89.82" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.82" y1="-87.19" x2="-89.8" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.8" y1="-86.8" x2="-89.82" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-85.02" y1="-91.99" x2="-86.62" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.22" y1="-89.59" x2="-89.82" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.2" y1="-90" x2="-88.22" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.2" y1="-88.4" x2="-88.22" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.22" y1="-87.19" x2="-88.2" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.2" y1="-86.8" x2="-88.22" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-86.62" y1="-89.59" x2="-88.22" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-86.6" y1="-90" x2="-86.62" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-86.6" y1="-88.4" x2="-86.62" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-86.62" y1="-87.19" x2="-86.6" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-86.6" y1="-86.8" x2="-86.62" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-85.02" y1="-89.59" x2="-86.62" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-85.02" y1="-87.19" x2="-86.62" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-97.22" y1="-94.39" x2="-93.02" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.82" y1="-94.39" x2="-97.22" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.8" y1="-93.2" x2="-98.82" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.82" y1="-91.99" x2="-98.8" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.8" y1="-91.6" x2="-98.82" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-100.42" y1="-94.39" x2="-98.82" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-100.4" y1="-94.8" x2="-100.42" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-100.4" y1="-93.2" x2="-100.42" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-100.42" y1="-91.99" x2="-100.4" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-100.4" y1="-91.6" x2="-100.42" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-102.02" y1="-94.39" x2="-100.42" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-102" y1="-94.8" x2="-102.02" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-102" y1="-93.2" x2="-102.02" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-102.02" y1="-91.99" x2="-102" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-102" y1="-91.6" x2="-102.02" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-103.6" y1="-94.8" x2="-102" y2="-94.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-103.62" y1="-94.39" x2="-103.6" y2="-94.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-103.6" y1="-93.2" x2="-103.62" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-103.62" y1="-91.99" x2="-103.6" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-103.6" y1="-91.6" x2="-103.62" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-105.2" y1="-94.8" x2="-103.6" y2="-94.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-105.22" y1="-94.39" x2="-105.2" y2="-94.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-105.2" y1="-93.2" x2="-105.22" y2="-94.39" width="0" layer="19" extent="1-1"/>
-<wire x1="-105.22" y1="-91.99" x2="-105.2" y2="-93.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-105.2" y1="-91.6" x2="-105.22" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-105.2" y1="-90" x2="-105.2" y2="-91.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-105.22" y1="-89.59" x2="-105.2" y2="-90" width="0" layer="19" extent="1-1"/>
-<wire x1="-105.2" y1="-88.4" x2="-105.22" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-105.22" y1="-87.19" x2="-105.2" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-105.2" y1="-86.8" x2="-105.22" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-103.62" y1="-89.59" x2="-105.22" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-103.6" y1="-90" x2="-103.62" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-103.6" y1="-88.4" x2="-103.62" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-103.62" y1="-87.19" x2="-103.6" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-103.6" y1="-86.8" x2="-103.62" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-102.02" y1="-89.59" x2="-103.62" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-102" y1="-90" x2="-102.02" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-102" y1="-88.4" x2="-102.02" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-102.02" y1="-87.19" x2="-102" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-102" y1="-86.8" x2="-102.02" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-97.22" y1="-91.99" x2="-98.82" y2="-91.99" width="0" layer="19" extent="1-1"/>
-<wire x1="-100.42" y1="-89.59" x2="-102.02" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-100.4" y1="-90" x2="-100.42" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-100.4" y1="-88.4" x2="-100.42" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-100.42" y1="-87.19" x2="-100.4" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-100.4" y1="-86.8" x2="-100.42" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.82" y1="-89.59" x2="-100.42" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.8" y1="-90" x2="-98.82" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.8" y1="-88.4" x2="-98.82" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.82" y1="-87.19" x2="-98.8" y2="-88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-98.8" y1="-86.8" x2="-98.82" y2="-87.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-97.22" y1="-89.59" x2="-98.82" y2="-89.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-97.22" y1="-87.19" x2="-98.82" y2="-87.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN2">
 <contactref element="PS2" pad="P$12"/>
@@ -7637,6 +6790,7 @@ design rules under a new name.</description>
 <contactref element="C7" pad="1"/>
 <via x="24.6" y="44.2" extent="1-16" drill="0.26" diameter="0.5"/>
 <via x="24.6" y="43.2" extent="1-16" drill="0.26" diameter="0.5"/>
+<<<<<<< HEAD
 <contactref element="CA4" pad="P$1"/>
 <contactref element="CA4" pad="P$48"/>
 <contactref element="CA4" pad="P$51"/>
@@ -8104,6 +7258,63 @@ design rules under a new name.</description>
 <wire x1="26.2" y1="27.8" x2="26.18" y2="28.59" width="0" layer="19" extent="1-16"/>
 <wire x1="26.2" y1="27.4" x2="26.2" y2="27.8" width="0" layer="19" extent="1-1"/>
 <wire x1="26.2" y1="27" x2="26.2" y2="27.4" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="28.65" y1="78" x2="38.81" y2="78" width="0" layer="19" extent="1-1"/>
+<wire x1="26.11" y1="78" x2="28.65" y2="78" width="0" layer="19" extent="1-1"/>
+<wire x1="21.03" y1="78" x2="26.11" y2="78" width="0" layer="19" extent="1-1"/>
+<wire x1="15.95" y1="78" x2="21.03" y2="78" width="0" layer="19" extent="1-1"/>
+<wire x1="10.87" y1="78" x2="15.95" y2="78" width="0" layer="19" extent="1-1"/>
+<wire x1="5.79" y1="78" x2="10.87" y2="78" width="0" layer="19" extent="1-1"/>
+<wire x1="21.45" y1="52.7" x2="21.03" y2="78" width="0" layer="19" extent="16-16"/>
+<wire x1="23.4" y1="50.2" x2="21.45" y2="52.7" width="0" layer="19" extent="16-16"/>
+<wire x1="24.6" y1="46.8" x2="24.6" y2="47" width="0" layer="19" extent="1-16"/>
+<wire x1="24.6" y1="43.2" x2="24.6" y2="43" width="0" layer="19" extent="1-16"/>
+<wire x1="23" y1="48.6" x2="23" y2="49" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="48.6" x2="24.6" y2="49" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="48.6" x2="24.6" y2="48.6" width="0" layer="19" extent="1-16"/>
+<wire x1="23" y1="46.2" x2="23" y2="45.8" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="46.2" x2="24.6" y2="45.8" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="45" x2="24.6" y2="44.6" width="0" layer="19" extent="1-16"/>
+<wire x1="24.6" y1="44.2" x2="24.6" y2="44.6" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="43.8" x2="24.6" y2="44.2" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="41.4" x2="24.6" y2="41" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="41.4" x2="24.6" y2="41.4" width="0" layer="19" extent="1-16"/>
+<wire x1="23" y1="43.8" x2="23" y2="44.6" width="0" layer="19" extent="1-1"/>
+<wire x1="26.2" y1="48.6" x2="25.4" y2="49.4" width="0" layer="19" extent="1-1"/>
+<wire x1="27.35" y1="38.7" x2="27.4" y2="39.8" width="0" layer="19" extent="1-1"/>
+<wire x1="26.75" y1="38.7" x2="27.35" y2="38.7" width="0" layer="19" extent="1-1"/>
+<wire x1="26.75" y1="37.8" x2="26.75" y2="38.7" width="0" layer="19" extent="1-1"/>
+<wire x1="27.35" y1="37.8" x2="26.75" y2="37.8" width="0" layer="19" extent="1-1"/>
+<wire x1="27" y1="36.85" x2="26.75" y2="37.8" width="0" layer="19" extent="1-1"/>
+<wire x1="21.4" y1="41.4" x2="23" y2="41.4" width="0" layer="19" extent="1-1"/>
+<wire x1="21.4" y1="42.2" x2="21.4" y2="41.4" width="0" layer="19" extent="1-1"/>
+<wire x1="21.175" y1="38.7" x2="21.4" y2="40.6" width="0" layer="19" extent="1-1"/>
+<wire x1="21.175" y1="37.7" x2="21.175" y2="38.7" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="30.2" x2="27" y2="36.85" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="28.6" x2="24.6" y2="29.4" width="0" layer="19" extent="1-1"/>
+<wire x1="23" y1="28.6" x2="23" y2="29.4" width="0" layer="19" extent="1-1"/>
+<wire x1="23" y1="27.8" x2="23" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="23" y1="27" x2="23" y2="27.8" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="27.8" x2="24.6" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="27" x2="24.6" y2="27.8" width="0" layer="19" extent="1-1"/>
+<wire x1="23" y1="26.2" x2="23" y2="27" width="0" layer="19" extent="1-1"/>
+<wire x1="23" y1="25.4" x2="23" y2="26.2" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="26.2" x2="24.6" y2="27" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="25.4" x2="24.6" y2="26.2" width="0" layer="19" extent="1-1"/>
+<wire x1="23" y1="24.6" x2="23" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="24.6" x2="24.6" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="23.8" x2="24.6" y2="24.6" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="23" x2="24.6" y2="23.8" width="0" layer="19" extent="1-1"/>
+<wire x1="23" y1="23.8" x2="23" y2="24.6" width="0" layer="19" extent="1-1"/>
+<wire x1="23" y1="23" x2="23" y2="23.8" width="0" layer="19" extent="1-1"/>
+<wire x1="23" y1="22.2" x2="23" y2="23" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="22.2" x2="24.6" y2="23" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6" y1="21.4" x2="24.6" y2="20.6" width="0" layer="19" extent="1-1"/>
+<wire x1="23" y1="21.4" x2="23" y2="20.6" width="0" layer="19" extent="1-1"/>
+<wire x1="26.2" y1="28.6" x2="25.446" y2="29.403" width="0" layer="19" extent="1-1"/>
+<wire x1="26.2" y1="27.8" x2="26.2" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="26.2" y1="27" x2="26.2" y2="27.8" width="0" layer="19" extent="1-1"/>
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 <wire x1="26.2" y1="26.2" x2="26.2" y2="27" width="0" layer="19" extent="1-1"/>
 <wire x1="26.18" y1="26.19" x2="26.2" y2="26.2" width="0" layer="19" extent="1-16"/>
 <wire x1="26.2" y1="25.8" x2="26.2" y2="26.2" width="0" layer="19" extent="1-1"/>
@@ -8136,6 +7347,7 @@ design rules under a new name.</description>
 <wire x1="27.8" y1="26.2" x2="27.8" y2="25.8" width="0" layer="19" extent="1-1"/>
 <wire x1="27.78" y1="26.19" x2="27.8" y2="26.2" width="0" layer="19" extent="1-16"/>
 <wire x1="27.8" y1="27" x2="27.8" y2="26.2" width="0" layer="19" extent="1-1"/>
+<<<<<<< HEAD
 <wire x1="27.8" y1="27.4" x2="27.8" y2="27" width="0" layer="19" extent="1-1"/>
 <wire x1="27.8" y1="27.8" x2="27.8" y2="27.4" width="0" layer="19" extent="1-1"/>
 <wire x1="27.78" y1="28.59" x2="27.8" y2="27.8" width="0" layer="19" extent="1-16"/>
@@ -8190,6 +7402,77 @@ design rules under a new name.</description>
 <wire x1="43" y1="23" x2="43" y2="23.8" width="0" layer="19" extent="1-1"/>
 <wire x1="43" y1="22.2" x2="43" y2="23" width="0" layer="19" extent="1-1"/>
 <wire x1="43" y1="29.4" x2="43" y2="28.6" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="27.8" y1="27.8" x2="27.8" y2="27" width="0" layer="19" extent="1-1"/>
+<wire x1="27.8" y1="28.6" x2="27.8" y2="27.8" width="0" layer="19" extent="1-1"/>
+<wire x1="21.4" y1="28.6" x2="23" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="21.4" y1="27.8" x2="21.4" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="21.4" y1="27" x2="21.4" y2="27.8" width="0" layer="19" extent="1-1"/>
+<wire x1="21.4" y1="26.2" x2="21.4" y2="27" width="0" layer="19" extent="1-1"/>
+<wire x1="21.4" y1="25.4" x2="21.4" y2="26.2" width="0" layer="19" extent="1-1"/>
+<wire x1="21.4" y1="24.6" x2="21.4" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="21.4" y1="23.8" x2="21.4" y2="24.6" width="0" layer="19" extent="1-1"/>
+<wire x1="21.4" y1="23" x2="21.4" y2="23.8" width="0" layer="19" extent="1-1"/>
+<wire x1="21.4" y1="22.2" x2="21.4" y2="23" width="0" layer="19" extent="1-1"/>
+<wire x1="21.4" y1="29.4" x2="21.4" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="21.4" y1="21.4" x2="21.4" y2="22.2" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="48.6" x2="27.8" y2="48.6" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="47.8" x2="41.4" y2="48.6" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="47" x2="41.4" y2="47.8" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="46.2" x2="41.4" y2="47" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="45.4" x2="41.4" y2="46.2" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="44.6" x2="41.4" y2="45.4" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="43.8" x2="41.4" y2="44.6" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="43" x2="41.4" y2="43.8" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="42.2" x2="41.4" y2="43" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="41.4" x2="41.4" y2="42.2" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="49.4" x2="41.4" y2="48.6" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="49.4" x2="41.4" y2="49.4" width="0" layer="19" extent="1-1"/>
+<wire x1="44.6" y1="48.6" x2="44.6" y2="49.4" width="0" layer="19" extent="1-1"/>
+<wire x1="44.6" y1="47.8" x2="44.6" y2="48.6" width="0" layer="19" extent="1-1"/>
+<wire x1="44.6" y1="47" x2="44.6" y2="47.8" width="0" layer="19" extent="1-1"/>
+<wire x1="44.6" y1="46.2" x2="44.6" y2="47" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="48.6" x2="43" y2="49.4" width="0" layer="19" extent="1-1"/>
+<wire x1="44.6" y1="45.4" x2="44.6" y2="46.2" width="0" layer="19" extent="1-1"/>
+<wire x1="44.6" y1="44.6" x2="44.6" y2="45.4" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="47.8" x2="43" y2="48.6" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="47" x2="43" y2="47.8" width="0" layer="19" extent="1-1"/>
+<wire x1="44.6" y1="43.8" x2="44.6" y2="44.6" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="46.2" x2="43" y2="47" width="0" layer="19" extent="1-1"/>
+<wire x1="44.6" y1="43" x2="44.6" y2="43.8" width="0" layer="19" extent="1-1"/>
+<wire x1="44.6" y1="42.2" x2="44.6" y2="43" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="45.4" x2="43" y2="46.2" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="44.6" x2="43" y2="45.4" width="0" layer="19" extent="1-1"/>
+<wire x1="44.6" y1="41.4" x2="44.6" y2="42.2" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="43.8" x2="43" y2="44.6" width="0" layer="19" extent="1-1"/>
+<wire x1="44.6" y1="40.6" x2="44.6" y2="41.4" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="43" x2="43" y2="43.8" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="42.2" x2="43" y2="43" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="41.4" x2="43" y2="42.2" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="40.6" x2="43" y2="41.4" width="0" layer="19" extent="1-1"/>
+<wire x1="46.2" y1="48.6" x2="45.4" y2="49.4" width="0" layer="19" extent="1-1"/>
+<wire x1="46.2" y1="47.8" x2="46.2" y2="48.6" width="0" layer="19" extent="1-1"/>
+<wire x1="46.2" y1="47" x2="46.2" y2="47.8" width="0" layer="19" extent="1-1"/>
+<wire x1="46.2" y1="46.2" x2="46.2" y2="47" width="0" layer="19" extent="1-1"/>
+<wire x1="46.2" y1="45.4" x2="46.2" y2="46.2" width="0" layer="19" extent="1-1"/>
+<wire x1="46.2" y1="44.6" x2="46.2" y2="45.4" width="0" layer="19" extent="1-1"/>
+<wire x1="46.2" y1="43.8" x2="46.2" y2="44.6" width="0" layer="19" extent="1-1"/>
+<wire x1="46.2" y1="43" x2="46.2" y2="43.8" width="0" layer="19" extent="1-1"/>
+<wire x1="46.2" y1="42.2" x2="46.2" y2="43" width="0" layer="19" extent="1-1"/>
+<wire x1="46.2" y1="41.4" x2="46.2" y2="42.2" width="0" layer="19" extent="1-1"/>
+<wire x1="46.2" y1="40.6" x2="46.2" y2="41.4" width="0" layer="19" extent="1-1"/>
+<wire x1="47.8" y1="41.4" x2="47.8" y2="40.6" width="0" layer="19" extent="1-1"/>
+<wire x1="47.8" y1="42.2" x2="47.8" y2="41.4" width="0" layer="19" extent="1-1"/>
+<wire x1="47.8" y1="43" x2="47.8" y2="42.2" width="0" layer="19" extent="1-1"/>
+<wire x1="47.8" y1="43.8" x2="47.8" y2="43" width="0" layer="19" extent="1-1"/>
+<wire x1="47.8" y1="44.6" x2="47.8" y2="43.8" width="0" layer="19" extent="1-1"/>
+<wire x1="47.8" y1="45.4" x2="47.8" y2="44.6" width="0" layer="19" extent="1-1"/>
+<wire x1="47.8" y1="46.2" x2="47.8" y2="45.4" width="0" layer="19" extent="1-1"/>
+<wire x1="47.8" y1="47" x2="47.8" y2="46.2" width="0" layer="19" extent="1-1"/>
+<wire x1="47.8" y1="47.8" x2="47.8" y2="47" width="0" layer="19" extent="1-1"/>
+<wire x1="47.8" y1="48.6" x2="47.8" y2="47.8" width="0" layer="19" extent="1-1"/>
+<wire x1="44.6" y1="30.2" x2="47" y2="39.8" width="0" layer="19" extent="1-1"/>
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 <wire x1="44.6" y1="28.6" x2="44.6" y2="29.4" width="0" layer="19" extent="1-1"/>
 <wire x1="44.6" y1="27.8" x2="44.6" y2="28.6" width="0" layer="19" extent="1-1"/>
 <wire x1="44.6" y1="27" x2="44.6" y2="27.8" width="0" layer="19" extent="1-1"/>
@@ -8222,6 +7505,7 @@ design rules under a new name.</description>
 <wire x1="47.8" y1="27" x2="47.8" y2="26.2" width="0" layer="19" extent="1-1"/>
 <wire x1="47.8" y1="27.8" x2="47.8" y2="27" width="0" layer="19" extent="1-1"/>
 <wire x1="47.8" y1="28.6" x2="47.8" y2="27.8" width="0" layer="19" extent="1-1"/>
+<<<<<<< HEAD
 <wire x1="47" y1="39.8" x2="44.6" y2="30.2" width="0" layer="19" extent="1-1"/>
 <wire x1="46.2" y1="41.4" x2="46.2" y2="40.6" width="0" layer="19" extent="1-1"/>
 <wire x1="46.2" y1="42.2" x2="46.2" y2="41.4" width="0" layer="19" extent="1-1"/>
@@ -8284,6 +7568,42 @@ design rules under a new name.</description>
 <wire x1="10.87" y1="78" x2="15.95" y2="78" width="0" layer="19" extent="1-1"/>
 <wire x1="5.79" y1="78" x2="10.87" y2="78" width="0" layer="19" extent="1-1"/>
 <wire x1="38.81" y1="78" x2="28.65" y2="78" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="41.4" y1="28.6" x2="43" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="27.8" x2="41.4" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="27" x2="41.4" y2="27.8" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="26.2" x2="41.4" y2="27" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="25.4" x2="41.4" y2="26.2" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="24.6" x2="41.4" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="23.8" x2="41.4" y2="24.6" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="23" x2="41.4" y2="23.8" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="22.2" x2="41.4" y2="23" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="29.4" x2="41.4" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="41.4" y1="21.4" x2="41.4" y2="22.2" width="0" layer="19" extent="1-1"/>
+<wire x1="6.275" y1="-8.3" x2="21.4" y2="20.6" width="0" layer="19" extent="1-1"/>
+<wire x1="4.525" y1="-11.4" x2="6.275" y2="-8.3" width="0" layer="19" extent="1-1"/>
+<wire x1="4.525" y1="-14.5" x2="4.525" y2="-11.4" width="0" layer="19" extent="1-1"/>
+<wire x1="0.725" y1="-14.5" x2="4.525" y2="-14.5" width="0" layer="19" extent="1-1"/>
+<wire x1="0.725" y1="-11.4" x2="0.725" y2="-14.5" width="0" layer="19" extent="1-1"/>
+<wire x1="2.475" y1="-20.7" x2="0.725" y2="-14.5" width="0" layer="19" extent="1-1"/>
+<wire x1="2.475" y1="-23.8" x2="2.475" y2="-20.7" width="0" layer="19" extent="1-1"/>
+<wire x1="2.475" y1="-26.9" x2="2.475" y2="-23.8" width="0" layer="19" extent="1-1"/>
+<wire x1="4.525" y1="-26.9" x2="2.475" y2="-26.9" width="0" layer="19" extent="1-1"/>
+<wire x1="4.525" y1="-30" x2="4.525" y2="-26.9" width="0" layer="19" extent="1-1"/>
+<wire x1="0.725" y1="-30" x2="2.475" y2="-26.9" width="0" layer="19" extent="1-1"/>
+<wire x1="0.725" y1="-33.1" x2="0.725" y2="-30" width="0" layer="19" extent="1-1"/>
+<wire x1="2.475" y1="-36.2" x2="0.725" y2="-33.1" width="0" layer="19" extent="1-1"/>
+<wire x1="2.475" y1="-39.3" x2="2.475" y2="-36.2" width="0" layer="19" extent="1-1"/>
+<wire x1="2.475" y1="-42.4" x2="2.475" y2="-39.3" width="0" layer="19" extent="1-1"/>
+<wire x1="4.525" y1="-42.4" x2="2.475" y2="-42.4" width="0" layer="19" extent="1-1"/>
+<wire x1="4.525" y1="-45.5" x2="4.525" y2="-42.4" width="0" layer="19" extent="1-1"/>
+<wire x1="0.725" y1="-45.5" x2="2.475" y2="-42.4" width="0" layer="19" extent="1-1"/>
+<wire x1="0.725" y1="-48.6" x2="0.725" y2="-45.5" width="0" layer="19" extent="1-1"/>
+<wire x1="6.275" y1="-39.3" x2="4.525" y2="-42.4" width="0" layer="19" extent="1-1"/>
+<wire x1="6.275" y1="-36.2" x2="6.275" y2="-39.3" width="0" layer="19" extent="1-1"/>
+<wire x1="6.275" y1="-23.8" x2="4.525" y2="-26.9" width="0" layer="19" extent="1-1"/>
+<wire x1="6.275" y1="-20.7" x2="6.275" y2="-23.8" width="0" layer="19" extent="1-1"/>
+>>>>>>> parent of 5d6930f... new custom bga pkg layout
 </signal>
 <signal name="N$14">
 <contactref element="C46" pad="1"/>
