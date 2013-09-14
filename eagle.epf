@@ -14,18 +14,12 @@ UsedLibrary="C:/eagle/lbr/CASEYS-CUSTOMS/casey's_custom_stuff.lbr"
 UsedLibrary="C:/eagle/lbr/CASEYS-CUSTOMS/BFL.new.lbr"
 
 [Win_1]
-Type="Control Panel"
-Loc="652 321 1251 720"
-State=3
-Number=0
-
-[Win_2]
 Type="Board Editor"
 Loc="652 321 1251 720"
-State=3
+State=2
 Number=1
 File="hashing.board.brd"
-View="35.4927 52.5181 57.2198 68.56"
+View="-113.593 -100.577 165.365 105.388"
 WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -65,13 +59,13 @@ AddLevel=2
 PadsSameType=0
 Layer=16
 
-[Win_3]
+[Win_2]
 Type="Schematic Editor"
-Loc="3267 0 3866 399"
-State=3
-Number=3
+Loc="652 321 1251 720"
+State=2
+Number=2
 File="hashing.board.sch"
-View="11.1194 95.8037 271.485 264.447"
+View="-9.16016 -6.11216 440.752 285.304"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -110,17 +104,16 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 11.1194 95.8037 271.485 264.447"
 Sheet=1
 
-[Win_4]
-Loc="1912 -8 2511 390"
-State=3
-Number=2
+[Win_3]
+Type="Control Panel"
+Loc="652 321 1251 720"
+State=1
+Number=0
 
 [Desktop]
 Screen="3840 1080"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
-Window="Win_4"
